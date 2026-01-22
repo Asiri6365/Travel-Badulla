@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us | Badulla Tourism</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header eke Css kotasa  */
+        header {
+            background: #005f73;
+            color: white;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Navigation Bar eke link styles eka */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        /* Mouse eka link eka uda thibbama mema patata harenawa */
+        nav  a:hover {
+            color: #ffcc00;
+        }
+
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        /* Hero Image eke saha text eke css kotasa */
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Images/tour.jpg");
+            background-size: cover;
+            background-position: center;
+            border-bottom: 5px solid #2c7a4b;
+            /* Text eka center karanna flexbox use karanawa */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-image h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-image h5 {
+            margin: 10px 0 0 0;
+            font-size: 1.2rem;
+            font-weight: normal;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #005f73;
+        }
+        ul {
+            margin-left: 20px;
+        }
+
+        /* Footer eke css kotasa*/
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #000000;
+            color: white;
+            margin-top: 30px;
+        }
+
+        /*Mobile Responsive css kotasa*/
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav {
+                margin-top: 10px;
+            }
+            nav a {
+                margin: 0 10px;
+            }
+            .hero-image {
+                height: 300px;
+            }
+            .hero-image h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Travel Badulla</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html#">About Us</a>
+        <a href="web.html">Tours</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="hero-image">
+    <h1>About Badulla Tourism</h1>
+    <h5>Discover the Beauty of Uva Province</h5>
+</div>
+
+<section>
+    <h2>Welcome to Badulla</h2>
+    <p>
+        Badulla is the heart of Sri Lanka’s Uva Province and a gateway to the Hill Country.
+        Surrounded by lush tea plantations, misty mountains, and beautiful waterfalls,
+        Badulla offers visitors a peaceful and unforgettable travel experience.
+    </p>
+
+    <p>
+        With a rich history dating back to ancient times and influences from the colonial era,
+        Badulla is a unique destination where culture, nature, and tradition blend perfectly.
+    </p>
+
+    <h2>Our Vision</h2>
+    <p>
+        Our vision is to promote Badulla as a sustainable and attractive tourist destination
+        while preserving its natural beauty and cultural heritage for future generations.
+    </p>
+
+    <h2>Why Visit Badulla?</h2>
+    <ul>
+        <li>Ancient temples like Muthiyangana Raja Maha Vihara</li>
+        <li>Natural attractions such as Dunhinda Waterfall</li>
+        <li>Historic sites including the Bogoda Wooden Bridge</li>
+        <li>Cool climate and scenic hill country views</li>
+        <li>Friendly people and authentic Sri Lankan culture</li>
+    </ul>
+
+    <h2>Our Commitment</h2>
+    <p>
+        We are committed to providing accurate travel information, promoting responsible tourism,
+        and helping visitors explore Badulla safely and enjoyably.
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Badulla Tourism. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
